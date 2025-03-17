@@ -22,7 +22,7 @@ This approach tunes a **constraint-based PID controller** with dynamic reference
 - The **induction phase** is tuned independently, and the resulting parameters are then used for tuning the **maintenance phase**.
 - **Important Notes**:
   - The tuning results may vary between runs, as the optimization process is non-deterministic (*applies for tuners A and B*).
-  - Given the complexity of this method, multiple candidate PID parameters can be extracted, allowing users to choose the ones that best meet their objectives.
+  - Given the complexity of this tuning method, multiple candidate PID parameters can be extracted, allowing users to choose the ones that best meet their objectives.
   - The parameters provided in this study were **not modified** post-tuning. They were selected directly from the tuner as they exhibited the best performance in our analysis.
 
 ---
